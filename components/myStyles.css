@@ -1,0 +1,819 @@
+@font-face {
+    font-family: Inter;
+    src: url(./Inter/static/Inter-Regular.ttf);
+  }
+.body {
+    overflow: hidden !important;
+    font-family: "Inter", sans-serif;
+}
+.dashboard-navigation {
+    background-color: #1565D8;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.welcome {
+    background-color: #1565D8;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 8px;
+    margin-left: 12px;
+    color: white;
+}
+.welcome-col {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0px !important;
+}
+.welcome-col>h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+}
+@media(max-width: 767px) {
+    .welcome-col {
+        padding-right: 0px !important;
+    }
+}
+.dashboard-body {
+    background-color: #F5F8FA; /*#F5F8FA*/
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.logo-text {
+    color: white;
+    font-weight: 900;
+    line-height: 21px;
+    padding-left: 10px;
+}
+.logo-div {
+    padding-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 60px;
+    background-color: white !important;
+}
+.header-inner {
+    height: 60px;
+    background-color: white !important;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.welcome-col-button {
+    background-color: #2C74DC;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100% !important;
+    font-size: 13px;
+}
+.welcome-col>h2 {
+    padding-bottom: 10px;
+}
+.welcome-col>p {
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.calendar-div {
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.react-calendar {
+    border: none !important;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100% !important;
+}
+.calendar-col {
+    padding-right: 12px !important;
+}
+.dashboard-row {
+    padding-right: 12px;
+    padding-top: 20px;
+}
+.calendar-div>p {
+    padding: 12px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    font-size: 14px !important;
+}
+.dashboard-col {
+    padding-right: 0px !important;
+}
+.person-vector {
+    height: 100% !important;
+    max-width: 200px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    overflow: hidden !important;
+}
+@media(max-width: 767px) {
+    .person-vector {
+        margin-left: 15% !important;
+        max-height: 180px;
+    }
+}
+.navigation-links {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: auto;
+}
+.active {
+    background-color: #1D2B4F !important;
+    border-left: 3px solid white !important;
+}
+.active:hover {
+    border-left: 0px;
+}
+.navigation-link {
+    padding: 10px;
+    color: white;
+    width: 100% !important;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.side-nav-link:hover {
+    background-color: #1D2B4F;
+    border-left: 3px solid white;
+}
+.navigation-link-inner {
+    width: 80%;
+    margin-left: 5%;
+}
+.navigation-link-inner>span {
+    margin-bottom: 0 !important;
+    font-weight: 500;
+    font-size: smaller;
+    padding-left: 15px;
+    font-style: normal;
+    line-height: 19px;
+}
+.header-image {
+    border-radius: 50%;
+    border: 1px black solid;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+.header-notification {
+    width: 20px;
+    height: 25px;
+}
+.nav-image {
+    width: 17px;
+    height: 17px;
+}
+.stats-div {
+    margin: 12px;
+}
+.one {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 12px;
+}
+.all-time {
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+    color: black;
+}
+.number {
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 31px;
+    padding-bottom: 8px;
+    color: #1D2B4F;
+}
+.patients {
+    font-weight: 400;
+    line-height: 19px;
+    color: #8692A6;
+    padding-bottom: 24px;
+    margin-bottom: 0px !important;
+}
+.last-month {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D2B4F;
+    margin-bottom: 0px !important;
+    padding-bottom: 9px !important;
+}
+.schedule-image {
+    width: 18px;
+    height: 18px;
+}
+.schedule-image-div {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 16px !important;
+    padding-top: 12px !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.schedule-image-div-one {
+    background-color: #CACBFA !important;
+}
+.schedule-image-div-two {
+    background-color: #FDD6A0 !important;
+}
+.schedule-image-div-three {
+    background: rgba(250, 121, 33, 0.1) !important;
+}
+.appointment-image {
+    width: 18px;
+    height: 18px;
+}
+.waiting-image {
+    width: 18px;
+    height: 18px;
+}
+.stats-col {
+    padding-right: 0px !important;
+}
+.react-calendar__month-view__weekdays__weekday>abbr {
+    text-decoration: none !important;
+}
+.gender-stats {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 12px;
+}
+@media(min-width: 992px) {
+    .gender-stats {
+        margin-top: 0px !important;
+    }
+}
+.activities-div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 12px;
+}
+.patients-by-gender {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+}
+@media(max-width: 1024px) {
+    .patients-by-gender {
+        font-size: 14px !important;
+    }
+}
+.by-gender-col {
+    padding-right: 0px !important;
+}
+.patients-this {
+    color: #8692A6;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+.patients-month {
+    color: #1565D8 !important;
+}
+.patients-div {
+    border-radius: 100%;
+    border: 3px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: auto !important;
+    padding-right: auto !important;
+    text-align: center !important;
+    border-radius: 100%;
+    border-width: 4px;
+    border-bottom-color: #5A5EED;
+    border-left-color: #20CB85;
+    border-right-color: #00CFDE;
+    border-top-color: #FF8080;
+}
+.patients-number {
+    margin-bottom: 0px !important;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 31px;
+}
+.patients-para {
+    margin-bottom: 0px !important;
+    font-size: 15px;
+    color: grey;
+}
+.genders-list {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+.next-patients-div {
+    margin: 12px;
+    margin-right: 0 !important;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.border-bottom-blue {
+    border-bottom: 3px solid #1565D8;
+    padding-bottom: 13px;
+}
+.patients-col {
+    padding-top: 30px;
+}
+.patients-time>span{
+    font-size: 13px;
+}
+.patients-info-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    background-color: #F9F9FA;
+    border-radius: 8px;
+    color: white;
+    margin-left: 20px;
+}
+.patients-image {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #8692A6;
+    border-radius: 50px;
+}
+.threedots {
+    height: 3px;
+    width: 15px;
+}
+.patients-name {
+    padding-left: 15px;
+    color: #8692A6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.patients-row {
+    padding-top: 12px;
+}
+.first-row {
+    padding-top: 20px !important;
+}
+.person-div {
+    height: 100% !important;
+}
+.notification-image {
+    background-color: #FDD6A0;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    padding: 5px;
+}
+.notification-span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 145%;
+}
+.notification-name {
+    font-weight: 700;
+}
+.notification-each {
+    padding-top: 20px;
+}
+.notification-bell-image {
+    width: 16px;
+    height: 16px;
+    margin-left: 12px;
+}
+@media(max-width: 991px) {
+    .notification-bell-image {
+        margin-left: 20px !important;
+    }
+}
+.notification-bell-col {
+    padding-right: 0px !important;
+}
+.activities-icon {
+    background-color: #FDD6A0;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+}
+@media(min-width: 800px) and (max-width: 962px) {
+    .activities-icon {
+        margin-top: 0px !important;
+    }
+}
+@media(min-width: 412px) and (max-width: 540px) {
+    .activities-icon {
+        margin-top: 0px !important;
+    }
+}
+.statistics-div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 12px;
+    margin-right: 0 !important;
+}
+@media(max-width: 991px) {
+    .statistics-div {
+        margin: 12px !important;
+    }
+    .welcome {
+        margin: 12px !important;
+        margin-bottom: 24px !important;
+    }
+    .stats-div {
+        margin: 12px !important;
+    }
+    .next-patients-div {
+        margin: 12px !important;
+        margin-bottom: 24px !important;
+        margin-top: 24px !important;
+    }
+    .calendar-div {
+        margin-left: 12px !important;
+    }
+    .gender-stats {
+        margin-left: 12px !important;
+    }
+    .activities-div {
+        margin-left: 12px !important;
+    }
+    .stats-col {
+        padding-right: 12px !important;
+    }
+    .welcome-col-button {
+        margin-top: 15px;
+    }
+}
+.nav-image-profile {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.navigation-link-div {
+    margin-top: 120px;
+}
+.real {
+    margin-right: 12px !important;
+}
+@media(min-width: 992px) {
+    .real {
+        display: none !important;
+    }
+}
+@media(max-width: 991px) {
+    .faux {
+        display: none !important;
+    }
+}
+@media(min-width: 992px) {
+    .view-appointments {
+        padding-right: 0px !important;
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px) {
+    .patients-col-expand {
+        padding-right: 0px !important;
+    }
+    .this-col {
+        padding-right: 0px !important;
+    }
+}
+@media(max-width: 991px) {
+    .dashboard-navigation {
+        display: none !important;
+    }
+}
+.arrow-down {
+    height: 8px;
+    width: 12px;
+    margin-left: 5px;
+}
+.arrow-right {
+    height: 9px;
+    width: 12px;
+    margin-left: 5px;
+    vertical-align: 0px !important;
+}
+.gender-color {
+    margin-right: 10px;
+    margin-bottom: 2px;
+    width: 6px;
+    height: 6px;
+}
+.welcome-schedule {
+    background-color: #1565D8;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 8px;
+    margin: 12px;
+    margin-top: 24px !important;
+    color: white;
+}
+.schedule-button-div {
+    width: 50%;
+}
+@media(min-width: 992px) {
+    .schedule-button-div {
+        width: 40%;
+    }
+}
+@media(max-width: 767px) {
+    .schedule-button-div {
+        width: 100%;
+    }
+}
+.person-vector-schedule {
+    height: 100% !important;
+    object-fit: contain !important;
+    overflow: hidden !important;
+}
+.eye {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+.button-arrow {
+    height: 12px;
+    width: 15px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+.body-div {
+    margin: 12px;
+}
+@media(max-width: 991px) {
+    .schedule-calendar-div {
+        margin-left: 0px !important;
+    }
+    .schedule-activities-div {
+        margin-left: 0px !important;
+    }
+    .schedule-patient-div {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+    }
+}
+@media(min-width: 992px) {
+    .calendar-activities-col {
+        padding-right: 0px !important;
+    }
+    .appointment-col {
+        padding-left: 0px !important;
+    }
+}
+.calendar-activities-col {
+    padding-top: 12px;
+}
+.schedule-year {
+    font-weight: 400 !important;
+}
+.schedule-activities-div {
+    margin-top: 0px !important;
+}
+.appointment-list-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 10px !important;
+}
+.appointment-list-image-div {
+    width: 104px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.appointment-list-image {
+    box-sizing: border-box;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 5px;
+}
+.list-image-two {
+    margin-left: 20px;
+}
+.list-image-three {
+    margin-left: 35px;
+}
+.list-image-four {
+    margin-left: 50px;
+}
+.appointment-list-div>span {
+    font-size: 12px;
+    color: #8692A6;
+    padding-bottom: 5px;
+}
+.schedule-appointment-patients-first-row {
+    margin-top: 10px !important;
+}
+.time-list-span {
+    font-size: smaller;
+}
+.time-list-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.time-list-col-two {
+    padding-left: 32px !important;
+}
+.time-list-div {
+    margin-top: 20px;
+}
+@media(max-width: 376px) {
+    .schedule-patients-date-col {
+        padding-right: 0px !important;
+    }
+    .schedule-patients-show-col {
+        padding-left: 0px !important;
+    }
+}
+@media (max-width: 1024px) {
+    .patients-by-gender {
+        font-size: 14px !important;
+    }
+}
+@media(max-width: 367px) {
+    .schedule-patients-by-gender {
+        font-size: 13px !important;
+    }
+    .schedule-patients-this {
+        font-size: 12px !important;
+    }
+}
+.navigation-link-inner {
+    text-decoration: none !important;
+    color: white !important;
+}
+@media(max-width: 767px) {
+    .stats-col-two {
+        margin-top: 12px !important;
+        margin-bottom: 12px !important;
+    }
+    .dashboard-activities-div {
+        margin-top: 24px !important;
+    }
+    .schedule-patient-div {
+        margin-top: 24px !important;
+    }
+    .schedule-activities-div {
+        margin-top: 10px !important;
+    }
+    .calendar-div>p {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        font-size: 14px !important;
+    }
+    .last-month {
+        font-size: 15px !important;
+    }
+    .welcome-col-button {
+        font-size: 15px !important;
+    }
+}
+@media(min-width: 992px) {
+    .header-link {
+        display: none;
+    }
+}
+.header-link {
+    text-decoration: none !important;
+    padding-right: 75px !important;
+}
+@media(min-width: 768px) {
+    .stats-col-one {
+        padding-right: 0px !important;
+    }
+    .stats-col-two {
+        padding-right: 0px !important;
+    }
+}
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    min-width: 83% !important;
+    z-index: 9999 !important;
+}
+.dashboard-body {
+    padding-top: 60px !important;
+}
+.schedule-body {
+    padding-top: 55px !important;
+    background-color: #F5F8FA; /*#F5F8FA*/
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+@media(max-width: 991px) {
+    .sticky {
+        position: fixed !important;
+        top: 0 !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+    }
+}
+@media(min-width: 992px) {
+    .sticky-nav {
+        position: fixed !important;
+        z-index: 1 !important;
+        top: 0 !important;
+        left: 0 !important;
+        overflow: hidden !important;
+        height: 100% !important;
+    }
+    .dashboard-body {
+        margin-left: 16.6666667% !important;
+    }
+    .schedule-body {
+        margin-left: 16.6666667% !important;
+    }
+}
+.side-nav-link {
+    text-decoration: none !important;
+}
+.side-nav-link:hover {
+    text-decoration: none !important;
+}
+.stats-arrow {
+    height: 10px;
+    width: 10px;
+}
+.last-month>span {
+    padding-left: 5px;
+}
+.notification-image-col {
+    padding-right: 0px !important;
+}
+.notification-text-col {
+    padding-left: 0px !important;
+}
+@media(min-width: 992px) and (max-width: 1024px) {
+    .notification-image-col {
+        padding-right: 5px !important;
+    }
+    .notification-text-col {
+        padding-left: 5px !important;
+    }
+}
+.calendar-para {
+    padding-left: 12px !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 24px;
+    padding-top: 12px;
+}
+.nav-link {
+    padding: 0px !important;
+}
+.pie-patient {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px !important;
+    line-height: 19px;
+    color: #8692A6 !important;
+}
+.pie-number {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+}
+.bar-chart {
+    margin-top: 30px;
+}
